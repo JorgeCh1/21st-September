@@ -26,6 +26,7 @@ body {
 
 .video-container {
   margin-left: 23%;
+  margin-top: 200px;
   position: relative;
   width: 80%; /* Ajusta el ancho del contenedor según tus preferencias */
   max-width: 800px; /* Establece un ancho máximo para el contenedor */
@@ -44,7 +45,7 @@ video {
     position: absolute;
     text-align: center;
     color: #fff; /* Color del texto */
-    font-size: 25px; /* Tamaño del texto */
+    font-size: 20px; /* Tamaño del texto */
 }
 
 .text-above {
@@ -164,6 +165,9 @@ video {
   .video-container{
     margin-left: 10%;
   }
+  .text-below {
+    bottom: -80px; /* Ajusta la posición vertical del texto debajo de la flor */
+}
 }
 
 /* Estilos para tablet */
